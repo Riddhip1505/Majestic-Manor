@@ -44,7 +44,7 @@ function Signup() {
         }
               })
   };
-  console.log('http://localhost:5000')
+  //console.log('http://localhost:5000')
   const handleSubmit = async(e) => { 
     e.preventDefault();
     const { firstName, email, password, confirmpassword } = data;
